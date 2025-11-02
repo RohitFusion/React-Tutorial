@@ -11,6 +11,7 @@ function Inputpractise() {
       />
 
       <h2>{name}</h2>
+      <h3>gis</h3>
     </>
   );
 }
