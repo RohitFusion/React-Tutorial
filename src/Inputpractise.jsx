@@ -9,9 +9,8 @@ function Inputpractise() {
         onChange={(event) => setName(event.target.value)}
         placeholder="Enter Name"
       />
-
       <h2>{name}</h2>
-      <h3>gis</h3>
+ 
     </>
   );
 }

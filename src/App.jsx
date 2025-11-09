@@ -25,6 +25,7 @@ import { Collage } from './Collage';
 import { RouteExampleone } from './ReactRouterExample1';
 import { RouterMajorBox } from './RouterMajorBox';
 import { GetApi } from './GetApiPrac';
+import { ParentOne } from './stae-uplif-prp/ParentOne';
 // import RefrencePrac from './UseRefrencePrac';
 
 function App() {
@@ -47,9 +48,14 @@ function App() {
       <LoopComponantsender />
 
       <EffectPractise />
+
+      <h2>Use REFRENCE </h2>
       <RefrencePrac />
+
+
       <UncontrolledForm />
       <FunctionSender />
+      <h2>FORWARD REF</h2>
       <Refsender />
       <FormStatus />
       <DerivedState />
@@ -58,6 +64,7 @@ function App() {
       <UpdateObj />
 
       <UpdateArray />
+      <h1>Hi this is Use Action</h1>
       <UseAction />
 
       <CustomToggle />
@@ -72,6 +79,16 @@ function App() {
       <hr />
 
       <GetApi />
+
+
+
+
+
+      <hr></hr>
+      <hr></hr>
+      <hr></hr>
+      <h1>UPLIFT</h1>
+      <ParentOne />
     </>
   );
 }

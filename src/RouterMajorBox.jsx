@@ -18,7 +18,7 @@ export const RouterMajorBox = () => {
         <Route path="/about" element={<RouterAbout />}></Route>
 
         {/* ROUTES PREFIXES */}
-
+ 
         <Route path="/user">
           <Route path="/user/about" element={<RouterAbout />}></Route>
         </Route>

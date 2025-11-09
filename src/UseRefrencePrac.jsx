@@ -4,7 +4,9 @@ const RefrencePrac = () => {
   const inputRef = useRef(null);
 
   const inputHandler = () => {
+    // console.log(inputRef);
     inputRef.current.focus();
+  
   };
 
   return (

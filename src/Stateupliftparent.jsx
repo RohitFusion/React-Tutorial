@@ -5,6 +5,10 @@ const Parentmajor = () => {
   const [count, setCount] = useState(0);
   return (
     <>
+
+     <h3>Parent State Uplifting</h3>
+    
+      <h2>{count}</h2>
       <Childone count={count} setCount={setCount} />
       <Childtwo count={count} setCount={setCount} />
     </>
